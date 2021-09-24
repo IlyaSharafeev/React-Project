@@ -1,0 +1,13 @@
+
+.wrapper {
+   display: grid;
+   grid-template-areas:
+      "sidebar main"
+      "sidebar main"
+   ;
+   grid-template-rows: 405px 305px;
+   grid-template-columns: 5fr 8fr;
+   background-color: rgb(225, 236, 250);
+}
+
+

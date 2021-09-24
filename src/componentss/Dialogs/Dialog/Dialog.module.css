@@ -1,0 +1,43 @@
+.dialog {
+   height: 100px;
+   background: #17212B;
+   border-bottom: 1px solid rgb(171, 171, 171);
+   border-right: 1px solid rgb(171, 171, 171);
+   border-bottom-width: 5px;
+   border-radius: 18px;
+   display: grid;
+   grid-template-areas:
+      "img name"
+   ;
+   grid-template-columns: 3fr 9fr;
+   cursor: pointer;
+}
+
+.dialog:hover {
+   background-color: #244260;
+}
+
+.imgAvatar {
+   grid-area: img;
+   margin-left: 50%;
+   margin-top: 20%;
+   border-width: 5px;
+   border-bottom: 3px solid rgb(106, 106, 106);
+   width: 45px;
+   height: 45px;
+}
+
+.name {
+   grid-area: name;
+   color: white;
+   font-family: verdana;
+   font-size: 16px;
+   letter-spacing: .15em;
+   text-shadow: -1px -1px 0px;
+   text-decoration: none;
+}
+
+.div_name {
+   padding-top: 20px;
+   padding-left: 30px;
+}

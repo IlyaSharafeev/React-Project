@@ -1,0 +1,19 @@
+.item {
+   padding: 15px 15px 15px 35px;
+   color: rgb(126, 146, 182);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 18px;
+}
+
+.item:hover {
+   background: rgba(0, 0, 0, 0.075);
+   cursor: pointer;
+}
+
+img.ikonki {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   margin-top: 20px;
+   margin-left: 10px;
+}

@@ -1,0 +1,30 @@
+
+
+*{
+  box-sizing: border-box;
+}
+
+.app-wrapper{
+  display: grid;
+  grid-template-areas: 
+  "nav nav"
+  "main main"
+  "main main"
+  ;
+  grid-template-columns: 155px 10fr;
+  background-color: #000000;
+}
+
+.app-wrapper-content{
+  grid-area: main;
+}
+
+
+
+
+
+
+
+
+
+

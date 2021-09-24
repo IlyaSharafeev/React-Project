@@ -1,0 +1,36 @@
+.title__upper__inpt {
+   color: #859AC5;
+   padding: 2px;
+   margin-bottom: 4px;
+}
+
+.block__input {
+   margin-left: 15px;
+   margin-top: 20px;
+}
+
+.form > input {
+   margin-top: 1%;
+   background: #F4F4F4;
+   width: 100%;
+   height: 30px;
+   padding: 8px;
+   color: #908f8f;
+   border: 0px solid black;
+}
+
+input {
+   width: 100%;
+   height: 5vh;
+   padding: 5px 0px 0px 12px;
+   font-size: 18px;
+   border: 0px solid red;
+   outline: 0px;
+   background: #8ab0fb44;
+}
+
+input:focus {
+   border: 0px solid red;
+   outline: 0px;
+   background: #8ab0fb44;
+}

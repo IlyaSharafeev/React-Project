@@ -1,0 +1,81 @@
+
+.dialogsItems::-webkit-scrollbar {
+   width: 5px;
+}
+
+.dialogsItems::-webkit-scrollbar-track {
+   -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+   background-color: #f9f9fd;
+   border-radius: 0px;
+}
+
+.dialogsItems::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+.dialogs{
+   display: grid;
+   grid-template-columns: 3fr 9fr;
+}
+
+.dialogsItems{
+   height: 100vh;
+   overflow-y: scroll;
+}
+
+.messages{
+   color: rgb(231, 231, 231);
+   overflow-y: auto;
+   overflow-x: auto;
+   height: 100vh;
+}
+
+.inpt_and_btn{
+   width: 100%;
+   position: fixed;
+   bottom: 0.2%;
+   height: 5vh;
+   display: grid;
+   grid-template-areas: 
+      "input button"
+   ;
+   grid-template-columns: 8fr 4fr;
+}
+
+.div_for_input{
+   grid-area: input;
+}
+
+.div_for_btn{
+   grid-area: button;
+}
+
+.input{
+   height: 100%;
+   width: 100%;
+   font-size: 17.5px;
+   color: rgb(255, 255, 255);
+   background: #2b3e51;
+   padding: 10px 0px 5px 15px;
+   border: 0px solid red;
+}
+
+.button{
+   height: 100%;
+   width: 30%;
+   border: 0px solid red;
+   background: #009DF5;
+   color: white;
+   text-transform: uppercase;
+}
+
+.button:hover{
+   background: rgb(228, 228, 228);
+   color: #009DF5;
+}
+
+.iconSend{
+   width: 25px;
+   height: 25px;
+}
